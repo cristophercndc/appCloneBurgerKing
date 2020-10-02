@@ -1,13 +1,12 @@
-
-
 import { useNavigation } from '@react-navigation/native';
 import React from 'react';
-import { SafeAreaView, StyleSheet, ScrollView, View, Text, StatusBar, Image, TouchableOpacity } from 'react-native';
-import { Header, LearnMoreLinks, Colors, DebugInstructions, ReloadInstructions, } from 'react-native/Libraries/NewAppScreen';
+import {StyleSheet, View, Text, StatusBar, Image, TouchableOpacity } from 'react-native';
+
 
 const Home = () => {
 
 const navigation = useNavigation();
+
 const onPress = () => {
 navigation.navigate('Login');
 
